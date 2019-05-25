@@ -1,5 +1,5 @@
-const db = require('../db')
-const { Sequelize } = db
+const db = require('../db');
+const { Sequelize } = db;
 
 const Family = db.define('family', {
   id: {
@@ -17,6 +17,6 @@ const Family = db.define('family', {
       }
     }
   }
-})
+});
 
-module.exports = Family
+module.exports = Family;
